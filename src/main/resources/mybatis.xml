@@ -34,7 +34,6 @@
                       value="pageNum=start;pageSize=limit;pageSizeZero=zero;reasonable=heli;count=countsql" />
         </plugin>
 
-    <plugins>
         <!-- com.github.pagehelper 为 PageHelper 类所在包名 -->
         <plugin interceptor="com.github.pagehelper.PageHelper">
         <property name="dialect" value="mysql" />
